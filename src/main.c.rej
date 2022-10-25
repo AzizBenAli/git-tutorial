@@ -1,0 +1,13 @@
+--- main.c
++++ main.c
+@@ -2,7 +2,6 @@
+ 
+ int main(int argc, char* argv[])
+ {
+-    printf("Hello Epsl");
+-    printf("This is a new print");
+-}
+-
++     printf("Hello Epsl");
++printf("This is a new print");
++}
