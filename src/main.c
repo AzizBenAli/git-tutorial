@@ -62,9 +62,10 @@ typedef struct {
   int verbose;
   int tick;
  
-} arguments_t:
+}
+int arguments_t;
  
-} arguments_t;
+
  
 
 void errno_abort(char *message) {
