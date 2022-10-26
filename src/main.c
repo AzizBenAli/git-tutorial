@@ -62,8 +62,8 @@ typedef struct {
   int verbose;
   int tick;
  
-}
-int arguments_t;
+}  
+int arguments_t[] ;
  
 
  
