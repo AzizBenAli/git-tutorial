@@ -1,36 +1,14 @@
-<<<<<<< HEAD
-
-
-
-#include <stdio.h>
-#include <espl_lib.h>
-int main() {
-int num;
-char chr;
-  
-do {
-   printf("Give me a number\n");
-   scanf("%d",&num);
-  printf ("%s\n" ,num_to_words( num));
-printf("Do you want to exit the programm Y/N \n");
-scanf("%s", &chr);
-}
- while (chr == 'y' || chr == 'Y');
-=======
-      /****************************************************************************
+       /****************************************************************************
   ----------------------------------------------------------------------
   Copyright (C) Alexander Hoffman, 2019
-
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
   any later version.
-
   This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
-
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
   ----------------------------------------------------------------------
@@ -246,6 +224,5 @@ int main(int argc, char **argv) {
 
 
   return 0;
->>>>>>> conflicts
 
 }
