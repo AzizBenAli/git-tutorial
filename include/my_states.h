@@ -39,8 +39,8 @@ typedef enum {
   state_third_e = 2,
 } my_states_id;
 
-void state_probe(void);
-void state_one_run(void);
+void  state_probe(void);
+void  state_one_run(void);
 void state_two_enter(void);
 void state_two_run(void);
 void state_two_exit(void);
